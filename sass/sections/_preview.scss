@@ -1,0 +1,38 @@
+.preview {
+    padding-top: 80px;
+    padding-bottom: 72.5px;
+}
+.preview__center {
+    display: flex;
+    column-gap: 137px;
+    align-items: center;
+    
+    &>*{flex-shrink: 0;}
+}
+.preview__author {
+    width: 448px;
+}
+.preview__wrapper-title {
+margin-bottom: 13px;
+
+}
+
+.preview__wrapper-subtitle {
+margin-bottom: 14px;
+
+}
+
+.preview__discription{
+    
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    
+}
+.preview__avatar {
+position: relative;
+width: 629px;
+height: 575px;
+}
+

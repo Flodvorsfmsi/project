@@ -1,0 +1,36 @@
+.avatar {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 344px;
+    height: 341px;
+}
+.avatar__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 344px;
+    height: 341px;
+    border-radius: 26% 74% 15% 85% / 57% 61% 39% 43% ;
+    overflow: hidden;
+    z-index: 3;
+}
+.avatar__shadow {
+    width: 344px;
+    height: 341px;
+    border-radius: 26% 74% 15% 85% / 57% 61% 39% 43% ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+}
+.avatar__shadow--first {
+    background-color: $headingColor;
+    transform: rotate(-30.58deg);
+    z-index: 2;
+}
+.avatar__shadow--second {
+    z-index: 1;
+    background-color: $textColor;
+    transform: rotate(24.12deg);
+}

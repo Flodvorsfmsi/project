@@ -1,0 +1,63 @@
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding-top: 61px;
+    padding-bottom: 58px;
+    background-color: $backgroundCard;
+    border-radius: 10px;
+    
+    .skill-card__item{
+        transition: fill 500ms;
+    }
+    
+    &:hover{
+    .skill-card__item{
+        transition: fill 500ms;
+    }
+    .skill-card__item--html{
+        fill: #FC490B;
+    }
+    .skill-card__item--css{
+        fill: #2196F4;
+    }
+    .skill-card__item--js{
+        fill: #FFDF00;
+    }
+    .skill-card__item--scss{
+        fill: #CA669B;
+    }
+    .skill-card__item--git{
+        fill: #F25234;
+    }
+    .context-btn{
+        transition: box-shadow 500ms, border 500ms;
+    }
+    .context-btn--html{
+        border-color: #FC490B;
+        box-shadow: 0px 0px 3px 0px #FC490B, inset 0px 0px 3px 0px #FC490B;
+    }
+    .context-btn--css{
+        border-color: #2196F4;
+        box-shadow: 0px 0px 3px 0px #2196F4, inset 0px 0px 3px 0px #2196F4; 
+    }
+    .context-btn--js{
+        border-color: #FFDF00;
+        box-shadow: 0px 0px 3px 0px #ffdf00, inset 0px 0px 3px 0px #ffdf00;
+    }
+    .context-btn--scss{
+        border-color: #CA669B;
+        box-shadow: 0px 0px 3px 0px #CA669B, inset 0px 0px 3px 0px #CA669B;
+    }
+    .context-btn--git{
+        border-color: #F25234;
+        box-shadow: 0px 0px 3px 0px #F25234, inset 0px 0px 3px 0px #F25234; 
+    }
+
+}
+}
+
+.skill-card__img{
+    margin-bottom: 16px;
+}

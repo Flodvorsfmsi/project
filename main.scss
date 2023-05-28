@@ -1,0 +1,24 @@
+// base
+@import "./sass/base/vars";
+@import "./sass/base/reset";
+@import "./sass/base/base";
+
+
+
+
+// sections
+@import "./sass/sections/header";
+@import "./sass/sections/preview";
+@import "./sass/sections/about-me";
+@import "./sass/sections/myskils";
+@import "./sass/sections/my-works";
+@import "./sass/sections/footer";
+//bloks
+@import "./sass/bloks/titles"; 
+@import "./sass/bloks/avatar";
+@import "./sass/bloks/context-btn";
+@import "./sass/bloks/card-skils";
+@import "./sass/bloks/context-links";
+@import "./sass/bloks/project-card";
+@import "./sass/bloks/context-links";
+@import "./sass/bloks/social-links"

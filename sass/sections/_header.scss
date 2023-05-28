@@ -1,0 +1,20 @@
+.header{
+    padding-top: 20.5px;
+    padding-bottom: 20.5px;
+}
+.header__center{
+    display: flex;
+    align-items: center;
+    column-gap: 530px;
+    
+}
+.header__menu-link{
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+
+    &:not(:last-child){
+        margin-right: 60px;
+    }
+}

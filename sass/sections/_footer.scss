@@ -1,0 +1,33 @@
+.footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+.container {
+}
+.footer__center {
+    display: flex;
+    column-gap: 64px;
+    justify-content: center;
+}
+.footer__copyright {
+    width: 213px;
+}
+.footer .wrapper-logo  {
+margin-bottom: 16px;
+}
+.logo {
+}
+.footer__text {
+    font-family: 'Inconsolata';
+font-weight: 400;
+font-size: 20px;
+line-height: 1.05;
+}
+.footer__contacts{
+width: 393px;
+}
+.logo--footer svg{
+    width: 170px;
+    height: 44px;
+}
