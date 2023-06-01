@@ -49,7 +49,7 @@ img, svg {
   max-width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /* Form */
@@ -91,7 +91,6 @@ legend {
 
 html {
   min-height: 100vh;
-  /* sticky footer */
   scroll-behavior: smooth;
 }
 
@@ -101,12 +100,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* sticky footer */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* sticky footer */
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.6875;
@@ -122,13 +119,11 @@ body {
 body > * {
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  /* sticky footer */
 }
 
 body.active {
   overflow: hidden;
 }
-
 /* Grid styles */
 .container {
   width: 1245px;
@@ -136,7 +131,6 @@ body.active {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* Tablet */
 }
 .container--fluid {
   max-width: unset;
@@ -144,12 +138,10 @@ body.active {
 .container--no-padding {
   padding: 0;
 }
-
 /* Utility */
 .none {
   display: none !important;
 }
-
 .visually-hidden {
   opacity: 0;
   visibility: hidden;
@@ -160,11 +152,8 @@ body.active {
   background: transparent;
   font-size: 0;
 }
-
-/* Sticky Footer */
 .footer {
   margin-top: auto;
-  /* sticky footer */
 }
 
 .header {
@@ -212,36 +201,29 @@ body.active {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .preview__author {
   width: 448px;
 }
-
 .preview__wrapper-title {
   margin-bottom: 13px;
 }
-
 .preview__wrapper-subtitle {
   margin-bottom: 14px;
 }
-
 .preview__discription {
   font-family: 'Inconsolata';
   font-weight: 400;
   font-size: 20px;
   line-height: 1;
 }
-
 .preview__avatar {
   position: relative;
   width: 629px;
   height: 575px;
 }
-
 .about-me {
   padding: 64px 0px;
 }
-
 .about-me__center {
   width: 1037px;
   display: -webkit-box;
@@ -254,12 +236,10 @@ body.active {
           column-gap: 32px;
   margin: 0 auto;
 }
-
 .about-me__icon {
   width: 101px;
   height: 101px;
 }
-
 .about-me__text {
   width: 904px;
   font-family: 'Inconsolata';
@@ -268,11 +248,9 @@ body.active {
   font-size: 24px;
   line-height: 25px;
 }
-
 .my-skills {
   padding: 60px 0px 64px;
 }
-
 .my-skills__row-cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,11 +260,9 @@ body.active {
   width: 1064px;
   margin: 0 auto;
 }
-
 .my-works {
   padding: 64px 0px;
 }
-
 .my-works__row-cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,12 +273,10 @@ body.active {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .footer {
   padding-top: 64px;
   padding-bottom: 64px;
 }
-
 .footer__center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -313,31 +287,25 @@ body.active {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .footer__copyright {
   width: 213px;
 }
-
 .footer .wrapper-logo {
   margin-bottom: 16px;
 }
-
 .footer__text {
   font-family: 'Inconsolata';
   font-weight: 400;
   font-size: 20px;
   line-height: 1.05;
 }
-
 .footer__contacts {
   width: 393px;
 }
-
 .logo--footer svg {
   width: 170px;
   height: 44px;
 }
-
 .maine-title {
   font-family: 'Inconsolata';
   font-weight: 900;
@@ -345,14 +313,12 @@ body.active {
   line-height: 1;
   color: #28c4ac;
 }
-
 .main-subtitle {
   font-family: 'Inconsolata';
   font-weight: 700;
   font-size: 40px;
   line-height: 1;
 }
-
 .wrapper-section-title {
   text-align: center;
   margin-bottom: 32px;
