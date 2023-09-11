@@ -38,6 +38,14 @@ section {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    
+    @media (max-width:1244px) {
+        width: 662px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    
     &--fluid {
     max-width: unset;
     }

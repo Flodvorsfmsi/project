@@ -1,6 +1,10 @@
 .preview {
     padding-top: 80px;
     padding-bottom: 72.5px;
+    @media (max-width:1244px) {
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
 }
 .preview__center {
     display: flex;
@@ -8,6 +12,10 @@
     align-items: center;
     
     &>*{flex-shrink: 0;}
+    @media (max-width: 1244px){
+        flex-direction: column;
+        row-gap: 72px;
+        }
 }
 .preview__author {
     width: 448px;
